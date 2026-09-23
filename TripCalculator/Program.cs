@@ -1,4 +1,12 @@
-﻿//Part 1 Started//
+﻿/*
+ *Name: James Gavin Ballard
+ *Course: CSCI 1250, Section 001
+ *Assignment: Lab 02, Trip Calculator
+ *Date: September 22, 2026 
+ *Description: Calculates the fuel, food, and works hours behind one road trip. 
+ */
+ 
+//Part 1 Started// Calculates the total cost of Driving for the road trip// 
 System.Console.WriteLine();
 Console.WriteLine("=== Part 1: Road Trip ===");
 //.WriteLine puts input or whatever under it
@@ -23,7 +31,7 @@ System.Console.WriteLine();
 Console.WriteLine("Gallons needed: " + gallonsNeeded.ToString("F2"));
 Console.WriteLine("Fuel cost: " + fuelCost.ToString("C"));
 
-//Part 2 Started//
+//Part 2 Started// Calculates the cost of the entire pizza party// 
 System.Console.WriteLine();
 Console.WriteLine("=== Part 2: Pizza Party ===");
 System.Console.WriteLine();
@@ -46,7 +54,7 @@ System.Console.WriteLine("Total slices: " + howManySlices.ToString("F2"));
 System.Console.WriteLine("Slices per Person: " + howManySlicesEachPersonGets.ToString("F2"));
 System.Console.WriteLine("Pizza cost: $" + totalPizzasPrice.ToString("C"));
 
-//Part 3 Started//
+//Part 3 Started// Calculates how much you make// 
 System.Console.WriteLine();
 System.Console.WriteLine("=== Part 3: Paycheck ===");
 System.Console.WriteLine();
@@ -66,7 +74,7 @@ System.Console.WriteLine("Gross pay: $" + grossPay.ToString("C"));
 System.Console.WriteLine("Tax withheld: $" + taxWithHeld.ToString("C"));
 System.Console.WriteLine("Take home pay: $" + takeHomePay.ToString("C"));
 
-//Part 4 Started// 
+//Part 4 Started// Calculates all the cost of the trip// 
 System.Console.WriteLine();
 System.Console.WriteLine("=== Part 4: The Whole Trip ===");
 double tripTotal = fuelCost + pricePerPizza; 
@@ -81,3 +89,11 @@ Console.WriteLine("Trip total: $" + tripTotal.ToString("C"));
 Console.WriteLine("Cost per person: $" + costPerPerson.ToString("C"));
 Console.WriteLine("Take home pay per hour: $" + takeHomePayPerHour.ToString("C"));
 Console.WriteLine("Hours you must work to cover your share: $" + hoursYouMustWork.ToString("C"));
+
+/*
+ *Name: James Gavin Ballard
+ *Course: CSCI 1250, Section 001
+ *Assignment: Lab 02, Trip Calculator
+ *Date: September 22, 2026 
+ *Description: Calculates the fuel, food, and works hours behind one road trip. 
+ */
