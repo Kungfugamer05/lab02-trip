@@ -48,3 +48,20 @@ System.Console.WriteLine("Pizza cost: $" + totalPizzasPrice.ToString("C"));
 
 //Part 3 Started//
 
+System.Console.WriteLine("=== Part 3: Paycheck ===");
+
+Console.Write("How many hrs have you worked this week? ");
+double totalHoursWorked = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("How much do you get payed per hr? $");
+double totalPayPerHour = Convert.ToDouble(Console.ReadLine());
+
+double grossPay = totalHoursWorked * totalPayPerHour; 
+
+double taxWithHeld = grossPay / 7.00;
+
+double takeHomePay = grossPay - taxWithHeld;
+
+System.Console.WriteLine("Gross pay: $" + grossPay.ToString("C"));
+System.Console.WriteLine("Tax withheld: $" + taxWithHeld.ToString("C"));
+System.Console.WriteLine("Take home pay: $" + takeHomePay.ToString("C"));
