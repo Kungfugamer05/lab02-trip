@@ -78,7 +78,7 @@ double takeHomePayPerHour = takeHomePay / totalHoursWorked;
 
 double hoursYouMustWork = costPerPerson / takeHomePayPerHour;
 
-System.Console.WriteLine("Trip total: $" + tripTotal.ToString("C"));
-System.Console.WriteLine("Cost per person: $" + costPerPerson.ToString("C"));
-System.Console.WriteLine("Take home pay per hour: $" + takeHomePayPerHour.ToString("C"));
-System.Console.WriteLine("Hours you must work to cover your share: $" + hoursYouMustWork.ToString("C"));
+Console.WriteLine("Trip total: $" + tripTotal.ToString("C"));
+Console.WriteLine("Cost per person: $" + costPerPerson.ToString("C"));
+Console.WriteLine("Take home pay per hour: $" + takeHomePayPerHour.ToString("C"));
+Console.WriteLine("Hours you must work to cover your share: $" + hoursYouMustWork.ToString("C"));
