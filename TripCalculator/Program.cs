@@ -1,5 +1,5 @@
 ﻿//Part 1 Started//
-
+System.Console.WriteLine();
 Console.WriteLine("=== Part 1: Road Trip ===");
 //.WriteLine puts input or whatever under it
 
@@ -24,7 +24,7 @@ Console.WriteLine("Gallons needed: " + gallonsNeeded.ToString("F2"));
 Console.WriteLine("Fuel cost: " + fuelCost.ToString("C"));
 
 //Part 2 Started//
-
+System.Console.WriteLine();
 Console.WriteLine("=== Part 2: Pizza Party ===");
 
 Console.Write("How many people are going? ");
@@ -47,7 +47,7 @@ System.Console.WriteLine("Slices per Person: " + howManySlicesEachPersonGets.ToS
 System.Console.WriteLine("Pizza cost: $" + totalPizzasPrice.ToString("C"));
 
 //Part 3 Started//
-
+System.Console.WriteLine();
 System.Console.WriteLine("=== Part 3: Paycheck ===");
 
 Console.Write("How many hrs have you worked this week? ");
@@ -65,3 +65,20 @@ double takeHomePay = grossPay - taxWithHeld;
 System.Console.WriteLine("Gross pay: $" + grossPay.ToString("C"));
 System.Console.WriteLine("Tax withheld: $" + taxWithHeld.ToString("C"));
 System.Console.WriteLine("Take home pay: $" + takeHomePay.ToString("C"));
+
+//Part 4 Started// 
+System.Console.WriteLine();
+System.Console.WriteLine("=== Part 4: The Whole Trip ===");
+
+double tripTotal = fuelCost + pricePerPizza; 
+
+double costPerPerson = tripTotal / slicesPerPerson;
+
+double takeHomePayPerHour = takeHomePay / totalHoursWorked;
+
+double hoursYouMustWork = costPerPerson / takeHomePayPerHour;
+
+System.Console.WriteLine("Trip total: $" + tripTotal.ToString("C"));
+System.Console.WriteLine("Cost per person: $" + costPerPerson.ToString("C"));
+System.Console.WriteLine("Take home pay per hour: $" + takeHomePayPerHour.ToString("C"));
+System.Console.WriteLine("Hours you must work to cover your share: $" + hoursYouMustWork.ToString("C"));
